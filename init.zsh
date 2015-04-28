@@ -61,3 +61,5 @@ export LC_CTYPE=$LANG
 # Load completions for Ruby, Git, etc.
 autoload compinit
 compinit
+
+export PATH=/usr/local/sbin:$PATH
