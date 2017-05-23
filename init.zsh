@@ -1,6 +1,7 @@
 source $HOME/.zsh/completion.zsh
 source $HOME/.zsh/git.zsh
 source $HOME/.zsh/key-bindings.zsh
+source $HOME/.zsh/alias.zsh
 
 autoload -U colors
 colors
@@ -62,4 +63,4 @@ export LC_CTYPE=$LANG
 autoload compinit
 compinit
 
-export PATH=/usr/local/sbin:$PATH
+export PATH=/usr/local/opt/imagemagick@7/bin:/usr/local/sbin:$PATH
